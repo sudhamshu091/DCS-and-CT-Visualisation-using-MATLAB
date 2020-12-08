@@ -7,7 +7,6 @@ for i=1:n
 end
 maxlen=max(lengths);
 msg='';
-%bitstream length is denoted by streamlen
 streamlen=length(bitstream);
 i=1;
 while i<=streamlen
