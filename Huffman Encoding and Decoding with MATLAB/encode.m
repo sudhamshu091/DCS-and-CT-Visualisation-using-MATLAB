@@ -1,4 +1,4 @@
-function [ codeword ] = huffman_encode( p )
+function [codeword] = huffman_encode( p )
 n=length(p);
 codeword=cell(1,n);
 X=zeros(n,n);
