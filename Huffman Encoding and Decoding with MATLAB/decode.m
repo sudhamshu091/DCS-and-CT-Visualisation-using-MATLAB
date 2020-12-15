@@ -1,3 +1,4 @@
+%
 function [msg] = huffman_decode(symb,code,bitstream)
 n=length(symb);
 lengths=[];
